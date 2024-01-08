@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote</title>
+  
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quote">
+      <div class="container  overflow-hidden">
+          <h1 >Quote of the Day</h1>
+
+        <div class="row justify-content-center align-items-center vh-100">
+          <div class="col-lg-9">
+            <div class="quote__container">
+              <div class="quote__border"></div>
+
+              <div class="quote__box overflow-hidden">
+                <p id="quote" class="quote__box--text lead  ps-4  mt-lg-4">“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”</p>
+                <p id="quote__author" >― Bernard M. Baruch</p>
+              </div>
+              <span class="quote__small-box--1 style">
+                <i class="fa-solid fa-quote-left"></i>
+              </span>
+              <span class="quote__small-box--2 style">
+                <i class="fa-solid fa-quote-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+           <button onclick=" generateRandom()" class="btn quote__btn">new quote</button>
+      </div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
